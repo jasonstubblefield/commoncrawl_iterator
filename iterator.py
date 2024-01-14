@@ -30,6 +30,7 @@ def process_file(queue):
         with open(warc_filename, 'rb') as warc_file:
             for record in ArchiveIterator(warc_file):
                 print(record.rec_headers.get_header('WARC-Target-URI'))
+                # Add additional parsing steps here.
 
         # Remove files
         os.remove(warc_filename)

@@ -1,6 +1,6 @@
 # Multithreaded Common Crawl Iterator
 
-This python script will iterate over web archove files including wet.paths, wat.paths or warc.paths file from common crawl.
+This Python script will iterate over web archive files including wet.paths, wat.paths or warc.paths file from Common Crawl.
 
 This is meant as a starting point and example. The output is pretty janky, you will probably want to silence the wget command and send the output to a file or database on a production situation, but again, this is a demonstration so don't use this in production without some changes.
 
